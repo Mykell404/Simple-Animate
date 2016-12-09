@@ -1,0 +1,37 @@
+#main{
+	background: url("../img/plain.jpg");
+	background-size: contain;
+	height: 100%;
+	filter: blur(5px);
+	-webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  filter: blur(5px);
+}
+.slide-container > ul > li{
+	color: #fff;
+	font-size:3em;
+	list-style: none;
+	opacity: .8;
+}
+.slide-container {
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	border: 5px solid rgba(255, 255, 255, .8);
+	width: 300px;
+}
+.slide-container > ul > li:first-child{
+	position: absolute;
+	top: 0;
+}
+.slide-container > ul > li:nth-child(2) {
+	position: absolute;
+	color: green;
+	top: 0px;
+}
+.slide-container > ul > li:nth-child(3){
+	top: 0;
+	color: red;
+}

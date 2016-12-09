@@ -1,0 +1,38 @@
+.blinker{
+	-webkit-animation: blinker 0.3s infinite ;
+	-o-animation: blinker 0.3s infinite ;
+	animation: blinker 0.3s infinite ;
+	-moz-animation: blinker 0.3s infinite ;
+}
+@keyframes blinker{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@-webkit-keyframes blinker{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@-moz-keyframes blinker{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 0.5;
+	}
+}
+@-o-keyframes blinker{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 0.5;
+	}
+}

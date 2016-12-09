@@ -1,0 +1,139 @@
+div .slide-one{
+	animation:speed_one 10s infinite  ease;
+	-webkit-animation:speed_one 10s infinite  ease;
+	-moz-animation:speed_one 10s infinite  ease;
+	-o-animation:speed_one 10s infinite  ease;
+}
+
+div .slide-two{
+	animation:speed_two 10s infinite  ease;
+	-webkit-animation:speed_two 10s infinite  ease;
+	-moz-animation:speed_two 10s infinite  ease;
+	-o-animation:speed_two 10s infinite  ease;
+}
+
+div .slide-three{
+	animation:speed_three 10s infinite  ease;
+	-webkit-animation:speed_three 10s infinite  ease;
+	-moz-animation:speed_three 10s infinite  ease;
+	-o-animation:speed_three 10s infinite  ease;
+}
+@-webkit-keyframes speed_one{
+		0%{color: rgba(255,255,255,0.8);opacity:1;}
+
+		35%{color: rgba(255,255,255,0.8);opacity:1;}
+
+		40%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		95%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		100%{color: rgba(255,255,255,0.8); opacity:1;}
+}
+	@-moz-keyframes speed_one{
+		0%{color: rgba(255,255,255,0.8);opacity:1;}
+
+		35%{color: rgba(255,255,255,0.8);opacity:1;}
+
+		40%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		95%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		100%{color: rgba(255,255,255,0.8); opacity:1;}
+	}
+	@-o-keyframes speed_one{
+		0%{color: rgba(255,255,255,0.8);opacity:1;}
+
+		35%{color: rgba(255,255,255,0.8);opacity:1;}
+
+		40%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		95%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		100%{color: rgba(255,255,255,0.8); opacity:1;}
+	}
+
+	@-webkit-keyframes speed_two{
+		0%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		40%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		45%{color: rgba(255,255,255,0.8);opacity:1;}
+
+		60%{color: rgba(255,255,255,0.8);opacity:1;}
+
+		65%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		100%{color: rgba(255,255,255,0.0); opacity:0;}
+	}
+	@-moz-keyframes speed_two{
+
+		0%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		40%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		45%{color: rgba(255,255,255,0.8);opacity:1;}
+
+		60%{color: rgba(255,255,255,0.8);opacity:1;}
+
+		65%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		100%{color: rgba(255,255,255,0.0); opacity:0;}
+
+	}
+	@-o-keyframes speed_two{
+
+		0%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		40%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		45%{color: rgba(255,255,255,0.8);opacity:1;}
+
+		60%{color: rgba(255,255,255,0.8);opacity:1;}
+
+		65%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		100%{color: rgba(255,255,255,0.0); opacity:0;}
+
+	}
+
+	@-webkit-keyframes speed_three{
+		0%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		65%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		75%{color: rgba(255,255,255,0.8);opacity:1;}
+
+		90%{color: rgba(255,255,255,0.8);opacity:1;}
+
+		95%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		100%{color: rgba(255,255,255,0.0); opacity:0;}
+	}
+	@-moz-keyframes speed_three{
+
+		0%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		65%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		75%{color: rgba(255,255,255,0.8);opacity:1;}
+
+		90%{color: rgba(255,255,255,0.8);opacity:1;}
+
+		95%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		100%{color: rgba(255,255,255,0.0); opacity:0;}
+	}
+	@-o-keyframes speed_three{
+
+		0%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		65%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		75%{color: rgba(255,255,255,0.8);opacity:1;}
+
+		90%{color: rgba(255,255,255,0.8);opacity:1;}
+
+		95%{color: rgba(255,255,255,0.0); opacity:0;}
+
+		100%{color: rgba(255,255,255,0.0); opacity:0;}
+	}
